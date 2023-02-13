@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .left {
+    flex: 1;
+    background-color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+  
+  .title {
+    position: absolute;
+    width: 135.97px;
+    height: 17.62px;
+    left: 45px;
+    top: 45px;
+  }
+
+  .welcome{
+    position: absolute;
+    width: 259px;
+    height: 44px;
+    left: 69.75px;
+    top: 130px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 620;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    font-variation-settings: 'slnt' 0;
+  }
+
+  .welcomesub{
+    position: absolute;
+    width: 364px;
+    height: 24px;
+    left: 75px;
+    top: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.5px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #909090;
+  }
+
+  form {
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 337.5px;
+    left: 50px;
+    top: 240px;
+    padding: 20px;
+    
+  }
+
+  label, input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+    margin: 10px 2000px 10px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.5px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+        
+  }
+
+  .email .password{
+    width: 34px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+
+  }
+  
+  input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+  }
+
+  .actions {
+    display: flex;
+    position: absolute;
+    padding: 10px 0px 10px 0px;
+    margin-top: 5px;
+       
+  }
+
+  .check{
+    margin: 0;
+
+  }
+
+  .remember{
+    width: 126px;
+    position: relative;
+    height: 15px;
+    left: 10px;
+    top: 0px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.02em;   
+    color: #000000;
+  }
+
+  .forgotpassword {
+    position: relative;
+    width: 93px;
+    height: 15px;
+    left: 8px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;    
+    text-align: right;
+    letter-spacing: -0.02em;   
+    color: #7C3CCE;
+    padding: 0px 0px 0px 60px;    
+
+  }
+
+  .signindiv{    
+    border-radius: 6px;
+    margin: 50px 0px 0px 0px;
+
+  }
+
+  input[type="submit"] {
+    width: 300px;
+    height: 40.5px;
+    background: #7C3CCE;
+    color: #FFFF;
+    
+  }
+
+  .signingoogle{
+    width: 300px;
+    height: 40.5px; 
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin: 30px 0px;
+    border: 0.75px solid #E2E6ED;
+    box-shadow: 0px 0.75px 3.75px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;    
+    box-sizing: border-box;
+}
+
+.signupdiv{    
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.account{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;    
+    letter-spacing: -0.02em;    
+    color: #7E7E7E;
+    margin-left: 10px;    
+}
+
+.signup{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;    
+    letter-spacing: -0.02em;    
+    color: #7C3CCE;   
+    margin-left: 5px; 
+}
+
+.copyrightdiv{
+    position: absolute;
+    width: 157px;
+    height: 15px;
+    left: 45px;
+    top: 708.75px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    letter-spacing: -0.02em;
+    
+    color: #98A0A8;    
+}
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F4F8;
+  }
+
+  .elipse{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background: linear-gradient(150.31deg, #C08FFF 3.15%, #7C3CCE 64.33%);
+  }
+
+  .glass{
+    position: absolute;
+    width: 300px;
+    height: 183px;
+    margin-top: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(18.75px);
+  }
+
+  @media (max-width: 1028px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .left{
+        top: 0;
+        height: 100%;
+    }
+
+    .right{
+        display: none;      
+    }
+
+}
+ 
